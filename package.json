@@ -1,0 +1,20 @@
+{
+  "name": "gulp-negpack",
+  "version": "0.0.1",
+  "description": "do neg package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" : {
+        "type": "git",
+        "url": "https://github.com/bcguan2008/gulp-negpack.git"
+    },
+  "author": "Ben",
+  "license": "ISC",
+  "devDependencies": {
+    "fd-gulp-convert-encoding": "0.0.1",
+    "gulp-util": "^3.0.1",
+    "through2": "^0.6.3"
+  }
+}
