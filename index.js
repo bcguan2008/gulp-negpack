@@ -5,7 +5,7 @@ var PluginError = gutil.PluginError;
 var path = require('path');
 var fs = require('fs');
 
-var PLUGIN_NAME = 'gulp-negpack';
+var PLUGIN_NAME = 'gulp-negpacker';
 
 
 module.exports = function (options) {
