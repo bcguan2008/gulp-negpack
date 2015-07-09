@@ -1,5 +1,5 @@
 {
-  "name": "gulp-negpack",
+  "name": "gulp-negpacker",
   "version": "0.0.1",
   "description": "do neg package",
   "main": "index.js",
