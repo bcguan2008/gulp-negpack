@@ -13,3 +13,23 @@ gulp-negpacker 是NEG的工程化工具，负责打包压缩NEG代码模块。
 ```shell
 npm install gulp-negpacker --save-dev
 ```
+
+**NEG lib**:https://github.com/bcguan2008/NEG.git
+
+## Sample:
+```javascript
+var gulp = require('gulp');
+
+gulp.task("pack",function(){
+
+	gulp.src("HomePage.js")
+		.pipe(negpack({
+			root:"../Lib/"
+		}))
+		.pipe(rename(function(path){
+			path.extname= '.min.js';
+		}))
+		.pipe(gulp.dest('/build/'));
+
+});
+```
