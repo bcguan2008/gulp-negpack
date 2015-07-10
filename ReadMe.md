@@ -24,7 +24,7 @@ gulp.task("pack",function(){
 
 	gulp.src("HomePage.js")
 		.pipe(negpack({
-			root:"../Lib/"
+			root:"../Lib/NEG/"
 		}))
 		.pipe(rename(function(path){
 			path.extname= '.min.js';
