@@ -1,6 +1,6 @@
 {
   "name": "gulp-negpacker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "do neg package",
   "main": "index.js",
   "homepage": "https://github.com/bcguan2008/gulp-negpack",
