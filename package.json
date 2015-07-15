@@ -1,25 +1,30 @@
 {
   "name": "gulp-negpacker",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "do neg package",
   "main": "index.js",
   "homepage": "https://github.com/bcguan2008/gulp-negpack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-        "type": "git",
-
-        "url": "https://github.com/bcguan2008/gulp-negpack.git"
-    },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcguan2008/gulp-negpack.git"
+  },
   "author": {
-      "name":"Ben Guan",
-      "email":"148135244@qq.com"
-    },
+    "name": "Ben Guan",
+    "email": "148135244@qq.com"
+  },
+  "keywords": [
+    "neg",
+    "packer",
+    "pack"
+  ],
   "license": "ISC",
-  "devDependencies": {
-    "fd-gulp-convert-encoding": "0.0.1",
-    "gulp-util": "^3.0.1",
-    "through2": "^0.6.3"
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "object-assign": "^3.0.0",
+    "stream": "0.0.2",
+    "through2": "^2.0.0"
   }
 }
