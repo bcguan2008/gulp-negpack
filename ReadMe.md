@@ -19,6 +19,7 @@ npm install gulp-negpacker --save-dev
 ## Sample:
 ```javascript
 var gulp = require('gulp');
+var negpack = require('gulp-negpacker');
 
 gulp.task("pack",function(){
 
