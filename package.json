@@ -22,7 +22,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^4.0.0",
     "gulp-util": "^3.0.6",
     "object-assign": "^3.0.0",
     "should": "^7.1.0",
